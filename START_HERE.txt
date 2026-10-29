@@ -1,0 +1,8 @@
+1. Extract the ZIP.
+2. Double-click run.bat.
+3. Keep the black terminal window open.
+4. Open http://localhost:8080 in your browser.
+5. Stop the server with Ctrl+C.
+
+If the browser does not open automatically, type http://localhost:8080 into Chrome.
+See README.md for features and demo IDs.

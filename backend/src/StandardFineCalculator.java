@@ -1,0 +1,1 @@
+import java.time.LocalDate;import java.time.temporal.ChronoUnit;public class StandardFineCalculator implements FineCalculator {public double calculateFine(LocalDate due,LocalDate returned){return returned!=null&&returned.isAfter(due)?ChronoUnit.DAYS.between(due,returned)*5.0:0.0;}}

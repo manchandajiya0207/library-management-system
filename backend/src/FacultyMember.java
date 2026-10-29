@@ -1,0 +1,1 @@
+public class FacultyMember extends Member {public FacultyMember(int i,String n,String e){super(i,n,e);}public int getBorrowingLimit(){return 5;}public int getLoanPeriodDays(){return 30;}public String getType(){return "Faculty";}}

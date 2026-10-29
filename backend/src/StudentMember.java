@@ -1,0 +1,1 @@
+public class StudentMember extends Member {public StudentMember(int i,String n,String e){super(i,n,e);}public int getBorrowingLimit(){return 3;}public int getLoanPeriodDays(){return 14;}public String getType(){return "Student";}}
